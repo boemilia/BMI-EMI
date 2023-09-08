@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Kalkulator BMI</title>
+</head>
+<body>  
+<div class="banner">
+  <div id="app">
+      <h1> <header><div id="naglowek">Kalkulator BMI</div></header></h1>
+        <div id="insert">
+          <h4>Wprowadź parametry</h4> 
+          <label for="height">Wzrost (cm):</label>
+          <input type="number" id="height">
+          <label for="weight">Waga (kg):</label> 
+          <input type="number" id="weight">
+          <button id="calculate">Zatwierdź</button>
+        </div>
+        <div id="recieve">
+          <h4>Wyniki pomiarów</h4> 
+          <p id="result"></p>
+        
+        <div id="history">
+         <h3>Historia pomiarów</h3> 
+          <table id="history-table">
+            <thead> 
+              <tr>
+                <th>Wzrost</th>
+                <th>Waga</th>
+                <th>BMI</th>
+                <th>Data</th>
+              </tr>
+            </thead>
+            <tbody id="history-body"></tbody>
+          </table>
+          <p id="average"></p>
+          <button id="clear">Wyczyść historię</button>
+        </div>
+      </div>
+ </div></div></div>
+</body>
+<script src="script.js"></script>
+</html>

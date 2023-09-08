@@ -1,0 +1,109 @@
+
+.banner {
+    background-image: url('https://domf5oio6qrcr.cloudfront.net/medialibrary/11499/3b360279-8b43-40f3-9b11-604749128187.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .banner > p {
+    color: white;
+    padding: 10px;
+  }
+
+  #naglowek {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    font-style: italic;
+    font-size: 80px;
+    opacity:75%;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+  }
+
+  #insert{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size-adjust: initial;
+  text-align: initial;
+  float: left;
+  margin: 20px;
+  width: 280px;
+  height: 220px;
+  border: 1px solid rgb(70, 2, 2);
+  border-radius:10% ;
+  background-color: rgb(192, 96, 96);
+  font: italic bold 16px/40px Georgi;
+  text-align: center;
+  opacity: 80%;
+
+  }
+
+    #recieve {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size-adjust: initial;
+    font: bold;
+    float: left;
+    margin: 20px;
+    width: 280px;
+    height: 200px;
+    border: 1px solid rgb(51, 65, 1);
+    border-radius:10%;
+    background-color: rgb(215, 231, 68);
+    font: italic bold 16px/40px Georgi;
+    text-align: center;
+    opacity: 80%;
+    }
+
+      #history{
+      position:relative 200 px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size-adjust: initial;
+      text-align:initial;
+      margin: 20px;
+      width: 280px;
+      height: 200px;
+      border: 1px solid rgb(7, 90, 32);
+      border-radius:10%;
+      background-color: rgb(18, 228, 46);
+      font: italic bold 12px/30px Georgi;
+      text-align: center;
+      opacity: 80%;
+      block-size: auto;
+      }
+
+        #calculate, #clear {
+        display: block;
+        margin: auto;
+        background-color: rgb(177, 182, 175);
+        border: 2px solid rgba(33, 68, 72, 0.59);
+        height: 50px;
+        width: 110px;
+        float: center;
+        font:small;
+        border-radius:10%;
+        border-style:outset;
+        color: rgba(0, 0, 0, 0.55);
+        text-align: center;
+        font: bold 15px "Helvetica Neue", Arial, Helvetica, Geneva;
+     }
+   
+
+
+ 
